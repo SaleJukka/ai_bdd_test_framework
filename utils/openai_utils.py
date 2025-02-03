@@ -11,7 +11,7 @@ def initialize_client():
 client = initialize_client() # Initialize the OpenAI client
 
 def load_promt(key):
-    """Retrieva the prompt from the prompts dictionary"""
+    """Retrieve the prompt from the prompts dictionary"""
     return prompts.get(key, "")
 
 # Generate text using OpenAI
